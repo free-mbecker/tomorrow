@@ -1,0 +1,14 @@
+(Vorab-)Installation Versuch 2 (V2)
+===================================
+(Fortsetzung von 150917)
+
+[ Anschlusspunkt
+
+>>> zurueck zu Sicherungspunkt: Nach apt-get update und upgrade (V2) <<<
+
+    sudo /etc/init.d/apache2 restart
+    (wieder FQDN-Fehler)
+
+Anschlusspunkt ]
+
+Und wieder geht's weiter und weiter und weiter:

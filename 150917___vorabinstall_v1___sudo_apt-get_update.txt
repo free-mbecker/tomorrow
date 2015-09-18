@@ -1,0 +1,87 @@
+moodle-admin@moodleUbuntu:~$ sudo apt-get update
+Ign http://de.archive.ubuntu.com trusty InRelease
+Ign http://de.archive.ubuntu.com trusty-updates InRelease
+Ign http://de.archive.ubuntu.com trusty-backports InRelease
+OK   http://de.archive.ubuntu.com trusty Release.gpg   
+Holen: 1 http://de.archive.ubuntu.com trusty-updates Release.gpg [933 B]
+Holen: 2 http://de.archive.ubuntu.com trusty-backports Release.gpg [933 B]
+OK   http://de.archive.ubuntu.com trusty Release        
+Holen: 3 http://de.archive.ubuntu.com trusty-updates Release [63,5 kB]     
+Ign http://security.ubuntu.com trusty-security InRelease                       
+Holen: 4 http://de.archive.ubuntu.com trusty-backports Release [63,5 kB]
+OK   http://de.archive.ubuntu.com trusty/main Sources      
+OK   http://de.archive.ubuntu.com trusty/restricted Sources            
+OK   http://de.archive.ubuntu.com trusty/universe Sources              
+Holen: 5 http://security.ubuntu.com trusty-security Release.gpg [933 B]
+OK   http://de.archive.ubuntu.com trusty/multiverse Sources
+OK   http://de.archive.ubuntu.com trusty/main amd64 Packages
+OK   http://de.archive.ubuntu.com trusty/restricted amd64 Packages
+Holen: 6 http://security.ubuntu.com trusty-security Release [63,5 kB]
+OK   http://de.archive.ubuntu.com trusty/universe amd64 Packages              
+OK   http://de.archive.ubuntu.com trusty/multiverse amd64 Packages            
+OK   http://de.archive.ubuntu.com trusty/main i386 Packages                  
+OK   http://de.archive.ubuntu.com trusty/restricted i386 Packages            
+OK   http://de.archive.ubuntu.com trusty/universe i386 Packages              
+OK   http://de.archive.ubuntu.com trusty/multiverse i386 Packages
+OK   http://de.archive.ubuntu.com trusty/main Translation-de
+OK   http://de.archive.ubuntu.com trusty/main Translation-en           
+OK   http://de.archive.ubuntu.com trusty/multiverse Translation-de     
+OK   http://de.archive.ubuntu.com trusty/multiverse Translation-en
+Holen: 7 http://security.ubuntu.com trusty-security/main Sources [94,6 kB]
+OK   http://de.archive.ubuntu.com trusty/restricted Translation-de          
+OK   http://de.archive.ubuntu.com trusty/restricted Translation-en          
+OK   http://de.archive.ubuntu.com trusty/universe Translation-de
+OK   http://de.archive.ubuntu.com trusty/universe Translation-en
+Holen: 8 http://de.archive.ubuntu.com trusty-updates/main Sources [234 kB]
+Holen: 9 http://de.archive.ubuntu.com trusty-updates/restricted Sources [4.725 B]
+Holen: 10 http://security.ubuntu.com trusty-security/restricted Sources [2.061 B]
+Holen: 11 http://de.archive.ubuntu.com trusty-updates/universe Sources [136 kB]
+Holen: 12 http://security.ubuntu.com trusty-security/universe Sources [30,5 kB]
+Holen: 13 http://de.archive.ubuntu.com trusty-updates/multiverse Sources [5.143 B]
+Holen: 14 http://de.archive.ubuntu.com trusty-updates/main amd64 Packages [619 kB]
+Holen: 15 http://security.ubuntu.com trusty-security/multiverse Sources [2.330 B]
+Holen: 16 http://security.ubuntu.com trusty-security/main amd64 Packages [344 kB]
+Holen: 17 http://de.archive.ubuntu.com trusty-updates/restricted amd64 Packages [15,4 kB]
+Holen: 18 http://de.archive.ubuntu.com trusty-updates/universe amd64 Packages [313 kB]
+Holen: 19 http://de.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [11,9 kB]
+Holen: 20 http://de.archive.ubuntu.com trusty-updates/main i386 Packages [601 kB]
+Holen: 21 http://security.ubuntu.com trusty-security/restricted amd64 Packages [8.875 B]
+Holen: 22 http://de.archive.ubuntu.com trusty-updates/restricted i386 Packages [15,1 kB]
+Holen: 23 http://de.archive.ubuntu.com trusty-updates/universe i386 Packages [314 kB]
+Holen: 24 http://security.ubuntu.com trusty-security/universe amd64 Packages [116 kB]
+Holen: 25 http://de.archive.ubuntu.com trusty-updates/multiverse i386 Packages [12,1 kB]
+Holen: 26 http://de.archive.ubuntu.com trusty-updates/main Translation-en [300 kB]
+Holen: 27 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [3.686 B]
+Holen: 28 http://security.ubuntu.com trusty-security/main i386 Packages [328 kB]
+OK   http://de.archive.ubuntu.com trusty-updates/multiverse Translation-en     
+Holen: 29 http://de.archive.ubuntu.com trusty-updates/restricted Translation-en [3.560 B]
+Holen: 30 http://de.archive.ubuntu.com trusty-updates/universe Translation-en [166 kB]
+Holen: 31 http://de.archive.ubuntu.com trusty-backports/main Sources [5.860 B] 
+Holen: 32 http://de.archive.ubuntu.com trusty-backports/restricted Sources [28 B]
+Holen: 33 http://de.archive.ubuntu.com trusty-backports/universe Sources [28,4 kB]
+Holen: 34 http://de.archive.ubuntu.com trusty-backports/multiverse Sources [1.898 B]
+Holen: 35 http://de.archive.ubuntu.com trusty-backports/main amd64 Packages [6.288 B]
+Holen: 36 http://de.archive.ubuntu.com trusty-backports/restricted amd64 Packages [28 B]
+Holen: 37 http://de.archive.ubuntu.com trusty-backports/universe amd64 Packages [32,6 kB]
+Holen: 38 http://de.archive.ubuntu.com trusty-backports/multiverse amd64 Packages [1.571 B]
+Holen: 39 http://de.archive.ubuntu.com trusty-backports/main i386 Packages [6.293 B]
+Holen: 40 http://de.archive.ubuntu.com trusty-backports/restricted i386 Packages [28 B]
+Holen: 41 http://de.archive.ubuntu.com trusty-backports/universe i386 Packages [32,6 kB]
+Holen: 42 http://de.archive.ubuntu.com trusty-backports/multiverse i386 Packages [1.552 B]
+OK   http://de.archive.ubuntu.com trusty-backports/main Translation-en         
+Holen: 43 http://de.archive.ubuntu.com trusty-backports/multiverse Translation-en [1.215 B]
+OK   http://de.archive.ubuntu.com trusty-backports/restricted Translation-en   
+Holen: 44 http://de.archive.ubuntu.com trusty-backports/universe Translation-en [29,6 kB]
+Holen: 45 http://security.ubuntu.com trusty-security/restricted i386 Packages [8.846 B]
+Holen: 46 http://security.ubuntu.com trusty-security/universe i386 Packages [116 kB]
+Ign http://de.archive.ubuntu.com trusty/main Translation-de_DE                 
+Ign http://de.archive.ubuntu.com trusty/multiverse Translation-de_DE           
+Ign http://de.archive.ubuntu.com trusty/restricted Translation-de_DE           
+Ign http://de.archive.ubuntu.com trusty/universe Translation-de_DE             
+Holen: 47 http://security.ubuntu.com trusty-security/multiverse i386 Packages [3.830 B]
+Holen: 48 http://security.ubuntu.com trusty-security/main Translation-en [187 kB]
+OK   http://security.ubuntu.com trusty-security/multiverse Translation-en      
+OK   http://security.ubuntu.com trusty-security/restricted Translation-en      
+Holen: 49 http://security.ubuntu.com trusty-security/universe Translation-en [67,8 kB]
+Es wurden 4.404 kB in 13 s geholt (327 kB/s).                                  
+Paketlisten werden gelesen... Fertig

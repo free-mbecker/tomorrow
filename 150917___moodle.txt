@@ -1,0 +1,121 @@
+Verbesserte history
+===================
+(erleichtert u.U. das Debugging)
+
+Verwendete bash–Kommandos:
+
+    shopt -s histappend
+    HISTFILESIZE=1000000
+    HISTSIZE=1000000
+    HISTTIMEFORMAT="%y%m%d %T "
+    PROMPT_COMMAND='history -a'
+    
+Damit das immer so bleibt:
+
+    sudo vi ~/.bashrc
+    shopt -s histappend
+    [ genau so (!) schon drin, war ich das via bash?? ]
+    HISTFILESIZE
+    [ urspruenglisch mit 2000 drin ]
+    HISTSIZE
+    [ urspruenglisch mit 1000 drin ]
+    HISTTIMEFORMAT="%y%m%d %T "
+    [ nicht drin, ganz unten kommentarlos (!) ergaenzt ]
+    PROMPT_COMMAND='history -a'
+    [ nicht drin, ganz unten kommentarlos (!) ergaenzt ]
+
+Hinweis zu PROMPT_COMMAND='history -a':
+(der Rest ist selbsterklaerend)
+
+    Befehl in ~/.bash_history nach jedem Ausfuehren
+    mormalerweise geschieht dieses Update nach exit-Befehl
+    Nachteil: nach shutdown geht die history verloren
+    mit der Aenderung ist auch der letzte Punkt eigentlich vom Tisch
+    am ist wahrscheinlich immer der exit-Befehl
+
+Abschließend zum Test (hat alles gepasst):
+
+    sudo shutdown -r now
+    history
+
+
+>>> Sicherungspunkt: Nach Aenderung der History-Settings <<<
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - –
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - –
+(Vorab-)Installation Versuch 1 (V1)
+===================================
+
+Aus Datei moodle-migration--tom.txt:
+
+    sudo apt-get install git-core
+    git config --global core.filemode false
+
+    sudo apt-get install \
+        php5-curl \
+        php5-pgsql \
+        php5-xmlrpc \
+        php5-gd \
+        php5-intl
+    
+    ??? Warum, warum, warum ??? (siehe FEHLER 1)
+
+    Erneuter Versuch mit --fix-missing (wie unten vorgeschlagen)
+    leider wieder nicht (siehe FEHLER 2)
+
+    Idee 1: einen Gang zurueckschalten -> erstmal nur php-curl
+    sudo apt-get install php-curl
+    liefert gleichen Fehler
+
+    Idee 2: apt-get moeglicherweise out-of-date
+    sudo apt-get update
+    sudo apt-get upgrade
+    (zugehoerige Terminal-Ausgaben in Dateien mit label gespeichert)
+    (label: 150917___vorabinstall_v1___ . . .)
+    danach gehts
+
+
+>>> ABBRUCH dieses Versuchs <<<
+>>> erklaert Toms Reihenfolge: veralteter Update Manager lieferte Fehler <<<
+>>> zurueck zu Sicherungspunkt: Nach Aenderung der History-Settings <<<
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - –
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - –
+(Vorab-)Installation Versuch 2 (V2)
+===================================
+
+Paketmanager apt-get aktualisieren:
+
+    sudo apt-get update
+    sudo apt-get upgrade
+    (wieder Terminal-Ausgaben in Dateien mit label gespeichert)
+    (label: 150917___vorabinstall_v2___ . . .)
+    (beim ueberfliegen alte Fehler gespotted: FQDN, etc. -> spaeter)
+
+Waehrend Aktualisierung:
+
+    Meldung bzgl. GRUB
+
+        GRUB (was immer das ist) fuer beide Geraete -> OK d.h. JA
+        (bitte selber recherchieren)
+        (fuer Meldung noch einmal selber ausprobieren)
+
+Weiter geht's:
+
+    sudo apt-get install git-core
+    git config --global core.filemode false
+
+    sudo apt-get install \
+        php5-curl \
+        php5-pgsql \
+        php5-xmlrpc \
+        php5-gd \
+        php5-intl
+
+>>> zurueck zu Sicherungspunkt: Nach apt-get update und upgrade (V2) <<<
+
+    sudo /etc/init.d/apache2 restart
+    (wieder FQDN-Fehler)
+

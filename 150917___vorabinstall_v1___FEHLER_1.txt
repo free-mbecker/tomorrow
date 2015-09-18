@@ -1,0 +1,51 @@
+Paketlisten werden gelesen... Fertig
+Abhängigkeitsbaum wird aufgebaut.       
+Statusinformationen werden eingelesen.... Fertig
+Die folgenden zusätzlichen Pakete werden installiert:
+  fontconfig-config fonts-dejavu-core libfontconfig1 libgd3 libicu52 libjbig0
+  libjpeg-turbo8 libjpeg8 libtiff5 libvpx1 libxpm4
+Vorgeschlagene Pakete:
+  libgd-tools
+Die folgenden NEUEN Pakete werden installiert:
+  fontconfig-config fonts-dejavu-core libfontconfig1 libgd3 libicu52 libjbig0
+  libjpeg-turbo8 libjpeg8 libtiff5 libvpx1 libxpm4 php5-curl php5-gd php5-intl
+  php5-pgsql php5-xmlrpc
+0 aktualisiert, 16 neu installiert, 0 zu entfernen und 3 nicht aktualisiert.
+Es müssen 9.213 kB an Archiven heruntergeladen werden.
+Nach dieser Operation werden 36,3 MB Plattenplatz zusätzlich benutzt.
+Möchten Sie fortfahren? [J/n] J
+Holen: 1 http://de.archive.ubuntu.com/ubuntu/ trusty/main fonts-dejavu-core all 2.34-1ubuntu1 [1.024 kB]
+Holen: 2 http://de.archive.ubuntu.com/ubuntu/ trusty-updates/main fontconfig-config all 2.11.0-0ubuntu4.1 [47,4 kB]
+Holen: 3 http://de.archive.ubuntu.com/ubuntu/ trusty-updates/main libfontconfig1 amd64 2.11.0-0ubuntu4.1 [123 kB]
+Holen: 4 http://de.archive.ubuntu.com/ubuntu/ trusty/main libjpeg-turbo8 amd64 1.3.0-0ubuntu2 [104 kB]
+Holen: 5 http://de.archive.ubuntu.com/ubuntu/ trusty/main libjpeg8 amd64 8c-2ubuntu8 [2.194 B]
+Holen: 6 http://de.archive.ubuntu.com/ubuntu/ trusty-updates/main libjbig0 amd64 2.0-2ubuntu4.1 [26,1 kB]
+Holen: 7 http://de.archive.ubuntu.com/ubuntu/ trusty-updates/main libtiff5 amd64 4.0.3-7ubuntu0.3 [143 kB]
+Holen: 8 http://de.archive.ubuntu.com/ubuntu/ trusty/main libvpx1 amd64 1.3.0-2 [556 kB]
+Holen: 9 http://de.archive.ubuntu.com/ubuntu/ trusty/main libxpm4 amd64 1:3.5.10-1 [38,3 kB]
+Holen: 10 http://de.archive.ubuntu.com/ubuntu/ trusty/main libgd3 amd64 2.1.0-3 [147 kB]
+Holen: 11 http://de.archive.ubuntu.com/ubuntu/ trusty-updates/main libicu52 amd64 52.1-3ubuntu0.3 [6.752 kB]
+Fehl http://de.archive.ubuntu.com/ubuntu/ trusty-updates/main php5-curl amd64 5.5.9+dfsg-1ubuntu4.9
+  404  Not Found [IP: 141.76.1.204 80]
+Fehl http://security.ubuntu.com/ubuntu/ trusty-security/main php5-curl amd64 5.5.9+dfsg-1ubuntu4.9
+  404  Not Found [IP: 91.189.92.200 80]
+Fehl http://security.ubuntu.com/ubuntu/ trusty-security/main php5-gd amd64 5.5.9+dfsg-1ubuntu4.9
+  404  Not Found [IP: 91.189.92.200 80]
+Fehl http://security.ubuntu.com/ubuntu/ trusty-security/universe php5-intl amd64 5.5.9+dfsg-1ubuntu4.9
+  404  Not Found [IP: 91.189.92.200 80]
+Fehl http://security.ubuntu.com/ubuntu/ trusty-security/main php5-pgsql amd64 5.5.9+dfsg-1ubuntu4.9
+  404  Not Found [IP: 91.189.92.200 80]
+Fehl http://security.ubuntu.com/ubuntu/ trusty-security/main php5-xmlrpc amd64 5.5.9+dfsg-1ubuntu4.9
+  404  Not Found [IP: 91.189.92.200 80]
+Es wurden 8.963 kB in 1 min 4 s geholt (140 kB/s).
+E: Fehlschlag beim Holen von http://security.ubuntu.com/ubuntu/pool/main/p/php5/php5-curl_5.5.9+dfsg-1ubuntu4.9_amd64.deb  404  Not Found [IP: 91.189.92.200 80]
+
+E: Fehlschlag beim Holen von http://security.ubuntu.com/ubuntu/pool/main/p/php5/php5-gd_5.5.9+dfsg-1ubuntu4.9_amd64.deb  404  Not Found [IP: 91.189.92.200 80]
+
+E: Fehlschlag beim Holen von http://security.ubuntu.com/ubuntu/pool/universe/p/php5/php5-intl_5.5.9+dfsg-1ubuntu4.9_amd64.deb  404  Not Found [IP: 91.189.92.200 80]
+
+E: Fehlschlag beim Holen von http://security.ubuntu.com/ubuntu/pool/main/p/php5/php5-pgsql_5.5.9+dfsg-1ubuntu4.9_amd64.deb  404  Not Found [IP: 91.189.92.200 80]
+
+E: Fehlschlag beim Holen von http://security.ubuntu.com/ubuntu/pool/main/p/php5/php5-xmlrpc_5.5.9+dfsg-1ubuntu4.9_amd64.deb  404  Not Found [IP: 91.189.92.200 80]
+
+E: Einige Archive konnten nicht heruntergeladen werden; vielleicht »apt-get update« ausführen oder mit »--fix-missing« probieren?

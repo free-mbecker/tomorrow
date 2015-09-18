@@ -1,0 +1,26 @@
+Paketmanager noch aktuell?
+==========================
+
+Sicherungspunkte hin, .ova-Exporte her (Homage an Sven Regener):
+Hat man laenger keine Aktualisierung von apt-get vorgenommen kommt es z.B. bei
+
+    sudo apt-get install \
+        php5-curl \
+        php5-pgsql \
+        php5-xmlrpc \
+        php5-gd \
+        php5-intl
+
+zu Fehlern. Diese uebersieht schnell, da viele Ausgaben erzeugt werden.
+
+FQDN-Fehler
+===========
+
+Beheben!!
+
+
+Stehen geblieben bei ...
+========================
+
+Sicherungspunkt erstellt nach apt-get udate und upgrade.
+apache2 neu gestartet, danach jedoch keinen Sicherungspunkt erstellt.
